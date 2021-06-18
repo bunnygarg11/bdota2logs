@@ -1,0 +1,39 @@
+(node:2824) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:2824) DeprecationWarning: Mongoose: `findOneAndUpdate()` and `findOneAndDelete()` without the `useFindAndModify` option set to false are deprecated. See: https://mongoosejs.com/docs/deprecations.html#findandmodify
+TypeError: Cannot read property 'send' of undefined
+    at SteamClient._send (/home/ec2-user/dynastygameapi/node_modules/steam/lib/steam_client.js:117:20)
+    at SteamClient.send (/home/ec2-user/dynastygameapi/node_modules/steam/lib/steam_client.js:126:8)
+    at SteamGameCoordinator._send (/home/ec2-user/dynastygameapi/node_modules/steam/lib/handlers/game_coordinator/index.js:49:16)
+    at SteamGameCoordinator.send (/home/ec2-user/dynastygameapi/node_modules/steam/lib/handlers/game_coordinator/index.js:67:8)
+    at Timeout.Dota2Client._sendClientHello [as _onTimeout] (/home/ec2-user/dynastygameapi/subModules/dota2/index.js:198:22)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+(node:19705) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:19705) DeprecationWarning: Mongoose: `findOneAndUpdate()` and `findOneAndDelete()` without the `useFindAndModify` option set to false are deprecated. See: https://mongoosejs.com/docs/deprecations.html#findandmodify
+TypeError: Cannot read property 'low' of null
+    at Function.fromValue (/home/ec2-user/dynastygameapi/node_modules/protobufjs/node_modules/long/dist/Long.js:254:29)
+    at Long.compare (/home/ec2-user/dynastygameapi/node_modules/protobufjs/node_modules/long/dist/Long.js:649:26)
+    at /home/ec2-user/dynastygameapi/services/dotaBot/dotaBot.js:176:46
+    at Array.find (<anonymous>)
+    at /home/ec2-user/dynastygameapi/services/dotaBot/dotaBot.js:176:17
+    at Array.filter (<anonymous>)
+    at diffMembers (/home/ec2-user/dynastygameapi/services/dotaBot/dotaBot.js:174:12)
+    at processMembers (/home/ec2-user/dynastygameapi/services/dotaBot/dotaBot.js:199:11)
+    at DotaBot.processLobbyUpdate (/home/ec2-user/dynastygameapi/services/dotaBot/dotaBot.js:844:21)
+    at Dota2Client.<anonymous> (/home/ec2-user/dynastygameapi/services/dotaBot/dotaBot.js:434:28)
+    at Dota2Client.emit (events.js:314:20)
+    at Dota2Client.handleSubscribedType (/home/ec2-user/dynastygameapi/subModules/dota2/handlers/cache.js:89:18)
+    at /home/ec2-user/dynastygameapi/subModules/dota2/handlers/cache.js:240:38
+    at Array.map (<anonymous>)
+    at Dota2Client.onUpdateMultiple (/home/ec2-user/dynastygameapi/subModules/dota2/handlers/cache.js:232:17)
+    at SteamGameCoordinator.fromGC (/home/ec2-user/dynastygameapi/subModules/dota2/index.js:172:38)
+    at SteamGameCoordinator.emit (events.js:314:20)
+    at SteamGameCoordinator.handlers.<computed> (/home/ec2-user/dynastygameapi/node_modules/steam/lib/handlers/game_coordinator/index.js:107:10)
+    at SteamGameCoordinator.<anonymous> (/home/ec2-user/dynastygameapi/node_modules/steam/lib/handlers/game_coordinator/index.js:19:28)
+    at SteamClient.emit (events.js:326:22)
+    at SteamClient._netMsgReceived (/home/ec2-user/dynastygameapi/node_modules/steam/lib/steam_client.js:175:10)
+    at SteamClient.handlers.<computed> (/home/ec2-user/dynastygameapi/node_modules/steam/lib/steam_client.js:262:10)
+(node:980) DeprecationWarning: collection.count is deprecated, and will be removed in a future version. Use Collection.countDocuments or Collection.estimatedDocumentCount instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
